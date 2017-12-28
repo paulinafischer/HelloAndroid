@@ -1,0 +1,167 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="4">
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="300dp"
+                      android:src="@drawable/dos"
+                      android:scaleType="centerCrop"
+                      />
+                  <FrameLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="#90212121"></FrameLayout>
+
+                  <TextView
+                      android:id="@+id/dacity"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="sans-serif-black"
+                      android:text="UDACITY"
+                      android:paddingTop="40dp"
+                      android:textAlignment="center"
+                      android:textColor="#b504ace4"
+                      android:textSize="80sp"
+                      android:textStyle="bold"
+                      />
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="sans-serif-light"
+                      android:text="Because We are Technology"
+                      android:paddingTop="135dp"
+                      android:textAlignment="center"
+                      android:textColor="#a2FAFAFA"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_above="@+id/button0"
+                      android:layout_alignParentLeft="true"
+                      android:layout_alignParentStart="true"
+                      android:fontFamily="sans-serif-light"
+                      android:paddingHorizontal="30dp"
+                      android:layout_marginBottom="5dp"
+                      android:text="Learn the skills you need, land the job you want, build the life you deserve"
+                      android:textAlignment="center"
+                      android:textColor="#FAFAFA"
+                      android:textSize="13sp" />
+
+
+                  <Button
+                      android:id="@+id/button0"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:layout_alignParentLeft="true"
+                      android:layout_alignParentStart="true"
+                      android:background="#850282A6"
+                      android:text="Explore"
+                      android:textColor="#eae1e1" />
+              </RelativeLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="2.5"
+                  android:orientation="vertical"
+                  android:background="@color/colorPrimary">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/text"
+                      android:text="Udacity
+2465 Latham St
+Mountain View,CA 94043"
+                      android:textColor="#000000"
+                      android:textSize="14sp"
+                      android:background="#FAFAFA"
+                      android:paddingVertical="7dp"
+                      android:paddingHorizontal="70dp"
+                      android:drawableRight="@drawable/ic_action_location"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#FAFAFA"
+                      android:text="Phone: 650-555-5555"
+                      android:textColor="#000000"
+                      android:textSize="15sp"
+                      android:paddingVertical="7dp"
+                      android:paddingHorizontal="70dp"
+                      android:drawableRight="@drawable/ic_action_phone"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#FAFAFA"
+                      android:text="Website: www.udacity.com"
+                      android:textColor="#000000"
+                      android:textSize="15sp"
+                      android:paddingVertical="7dp"
+                      android:paddingHorizontal="70dp"
+                      android:drawableRight="@drawable/ic_action_home"/>
+
+
+              </LinearLayout>
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.7"
+                  android:background="#6001627E">
+
+                  <Button
+                      android:id="@+id/button1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_centerHorizontal="true"
+                      android:layout_margin="3dp"
+                      android:padding="3dp"
+                      android:background="#a60282A6"
+                      android:drawableTop="@drawable/ic_action_share"
+                      android:textColor="#eae1e1" />
+
+                  <Button
+                      android:id="@+id/button2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_margin="3dp"
+                      android:padding="3dp"
+                      android:layout_toRightOf="@id/button1"
+                      android:background="#a60282A6"
+                      android:drawableTop="@drawable/ic_action_add"
+                      android:textColor="#eae1e1" />
+
+                  <Button
+                      android:id="@+id/button3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_margin="3dp"
+                      android:padding="3dp"
+                      android:layout_toLeftOf="@id/button1"
+                      android:background="#a60282A6"
+                      android:textAlignment="center"
+                      android:drawableTop="@drawable/ic_action_love"
+                      android:textColor="#eae1e1" />
+              </RelativeLayout>
+          </LinearLayout>
+</ScrollView>
